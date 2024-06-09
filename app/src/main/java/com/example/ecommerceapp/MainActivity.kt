@@ -19,5 +19,5 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
         finish()
     }
-    //ok
+    //ok ok
 }
