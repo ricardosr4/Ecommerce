@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">EcommerceApp</string>
+    <string name="imageview">imageview</string>
+    <string name="oferta_del_dia">Oferta del dia</string>
 </resources>
