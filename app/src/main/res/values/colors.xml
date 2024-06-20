@@ -2,4 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
+    <color name="text_title_rla">#7353BA</color>
+    <color name="btn_login">#5DADE2</color>
+    <color name="btn_register">#5DADE2</color>
+
 </resources>

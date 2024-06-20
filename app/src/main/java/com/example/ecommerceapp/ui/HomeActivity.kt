@@ -1,4 +1,5 @@
 package com.example.ecommerceapp.ui
+
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.ecommerceapp.databinding.ActivityHomeBinding
