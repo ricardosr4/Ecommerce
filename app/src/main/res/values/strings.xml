@@ -10,4 +10,7 @@
     <string name="registrate_aqui">registrate aqui</string>
     <string name="entrar">Entrar</string>
     <string name="email">Email</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="mostrar_contrase_a">Mostrar contraseña</string>
+    <string name="error_en_el_usuario_o_contrase_a">Error en el usuario o contraseña!</string>
 </resources>
