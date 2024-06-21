@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.ecommerceapp.databinding.ActivityMainBinding
 import com.example.ecommerceapp.ui.login.presenter.LoginActivity
 
-import com.example.ecommerceapp.ui.preLogin.presenter.PreLoginActivity
+
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
