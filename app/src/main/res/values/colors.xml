@@ -8,5 +8,8 @@
     <color name="btn_login">#5DADE2</color>
     <color name="btn_register">#5DADE2</color>
     <color name="et_hint">#9F9F9F</color>
+    <color name="error_text_login">#C0392B</color>
+    <color name="btn_error_register">#D9D9D9</color>
+    <color name="login_loading_bg">#4D000000</color>
 
 </resources>
