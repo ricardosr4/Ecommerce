@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">EcommerceApp</string>
+    <string name="imageview">imageview</string>
+    <string name="oferta_del_dia">Oferta del dia</string>
+    <string name="refactoring_life_nacademy">Refactoring Life\nAcademy</string>
+    <string name="register">Register</string>
+    <string name="iniciar_sesi_n">Iniciar Sesión</string>
+    <string name="en_caso_de_tener_problemas_comunicarse_con_soporte">En caso de tener problemas comunicarse con soporte</string>
+    <string name="si_no_tienes_una_cuenta">Si no tienes una cuenta ,</string>
+    <string name="registrate_aqui">registrate aqui</string>
+    <string name="entrar">Entrar</string>
+    <string name="email">Email</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="mostrar_contrase_a">Mostrar contraseña</string>
+    <string name="error_en_el_usuario_o_contrase_a">Error en el usuario o contraseña!</string>
 </resources>

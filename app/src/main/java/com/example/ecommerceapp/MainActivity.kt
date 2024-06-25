@@ -1,9 +1,12 @@
 package com.example.ecommerceapp
+
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.ecommerceapp.databinding.ActivityMainBinding
-import com.example.ecommerceapp.ui.HomeActivity
+import com.example.ecommerceapp.ui.login.presenter.LoginActivity
+import com.example.ecommerceapp.ui.preLogin.presenter.PreLoginActivity
+
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -12,12 +15,15 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        navigateToHome()
+        navigate()
     }
-    fun navigateToHome(){
-        val intent =Intent(this, HomeActivity::class.java)
+
+    //esta funsion es solo de prueba para ver la navegacion de las pantallas
+    private fun navigate() {
+        val intent = Intent(this, PreLoginActivity::class.java)
         startActivity(intent)
         finish()
     }
-    //ok ok
+
+
 }
