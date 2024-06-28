@@ -30,7 +30,7 @@ class PreLoginActivity : AppCompatActivity() {
         val intent = Intent(this, RegisterActivity::class.java)
         startActivity(intent)
     }
-
+//funcion para navegar a soporte
     private fun navigateToEmailSupport() {
         val emailIntent =
             Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", "rla.support@gmail.com", null))
