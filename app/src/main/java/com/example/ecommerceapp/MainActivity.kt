@@ -5,7 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.ecommerceapp.databinding.ActivityMainBinding
 import com.example.ecommerceapp.ui.login.presenter.LoginActivity
-
+import com.example.ecommerceapp.ui.preLogin.presenter.PreLoginActivity
 
 
 class MainActivity : AppCompatActivity() {
@@ -20,9 +20,10 @@ class MainActivity : AppCompatActivity() {
 
     //esta funsion es solo de prueba para ver la navegacion de las pantallas
     private fun navigate() {
-        val intent = Intent(this, LoginActivity::class.java)
+        val intent = Intent(this, PreLoginActivity::class.java)
         startActivity(intent)
         finish()
     }
+
 
 }
