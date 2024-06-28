@@ -36,4 +36,5 @@ class PreLoginActivity : AppCompatActivity() {
             Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", "rla.support@gmail.com", null))
         startActivity(Intent.createChooser(emailIntent, "enviar email..."))
     }
+
 }
