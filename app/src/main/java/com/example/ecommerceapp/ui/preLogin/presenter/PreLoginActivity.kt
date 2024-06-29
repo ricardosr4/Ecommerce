@@ -5,6 +5,7 @@ import android.net.Uri
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.ecommerceapp.databinding.ActivityPreLoginBinding
+import com.example.ecommerceapp.ui.home.presenter.HomeActivity
 import com.example.ecommerceapp.ui.login.presenter.LoginActivity
 import com.example.ecommerceapp.ui.register.presenter.RegisterActivity
 
@@ -22,7 +23,7 @@ class PreLoginActivity : AppCompatActivity() {
     }
 
     private fun navigateToLogin() {
-        val intent = Intent(this, LoginActivity::class.java)
+        val intent = Intent(this, HomeActivity::class.java)
         startActivity(intent)
     }
 
