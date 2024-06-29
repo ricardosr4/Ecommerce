@@ -17,4 +17,5 @@
     <string name="confirmar_contrase_a">Confirmar contraseña</string>
     <string name="si_ya_tienes_una_cuenta">Si ya tienes una cuenta,</string>
     <string name="inicia_sesion_aqui">inicia sesion aqui</string>
+    <string name="error_en_el_mensaje_o_contrase_a">Error en el mensaje o contraseña!</string>
 </resources>
