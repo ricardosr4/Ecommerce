@@ -18,4 +18,6 @@
     <string name="si_ya_tienes_una_cuenta">Si ya tienes una cuenta,</string>
     <string name="inicia_sesion_aqui">inicia sesion aqui</string>
     <string name="error_en_el_mensaje_o_contrase_a">Error en el mensaje o contraseña!</string>
+    <string name="en_caso_de_problemas_comunicarse_con">En caso de Problemas comunicarse con</string>
+    <string name="soporte">soporte</string>
 </resources>
